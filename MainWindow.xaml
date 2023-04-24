@@ -1,0 +1,16 @@
+﻿<Window x:Class="beadandó.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:beadandó"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Button1" Content="Számol" HorizontalAlignment="Left" Margin="618,235,0,0" VerticalAlignment="Top" Click="Button1_Click"/>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="618,94,0,0" TextWrapping="Wrap" Text="Ip cím" VerticalAlignment="Top" Width="120" TextChanged="TextBox1_TextChanged"/>
+        <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Margin="618,147,0,0" TextWrapping="Wrap" Text="prefix" VerticalAlignment="Top" Width="120" TextChanged="TextBox2_TextChanged"/>
+        <Label x:Name="Label1" Content="" HorizontalAlignment="Left" Margin="125,38,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
